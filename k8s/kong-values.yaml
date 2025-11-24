@@ -1,0 +1,15 @@
+database: "off"
+proxy:
+  type: ClusterIP
+  http:
+    enabled: true
+    servicePort: 80
+  tls:
+    enabled: false
+admin:
+  enabled: true
+ingressController:
+  enabled: true
+  ingressClass: "kong"
+  installCRDs: true
+replicaCount: 1
