@@ -8,7 +8,7 @@ A containerised microservices demo running on **Kubernetes**, using **Kong** as 
 
 ```
                         ┌─────────────────────────────┐
-  HTTP Request  ──────► │   Kong Ingress Controller    │
+  HTTP Request  ──────► │   Kong Ingress Controller   │
                         └────────────┬────────────────┘
                                      │
                    ┌─────────────────┼─────────────────┐
